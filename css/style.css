@@ -377,9 +377,10 @@ h1 {
     background-color: rgb(193, 215, 215);
     height: 405px;
     border-radius: 12px;
-    
+
 }
-.customerreview1 img{
+
+.customerreview1 img {
     margin-left: 29px;
     margin-top: 27px;
 }
@@ -409,6 +410,7 @@ h1 {
     font-family: "Poppins", sans-serif;
     margin-top: -63px;
 }
+
 /* Section-6 footer */
 .footer {
     width: 1440px;
