@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    align-items: center;
 }
 
 .Allsection {
@@ -105,7 +106,7 @@ nav {
 .leftnotes {
     position: absolute;
     width: 512px;
-    margin-top: 48px;
+    margin-top: -103px;
     height: 339px;
     font-family: "Poppins", sans-serif;
     margin-left: 48px;
@@ -129,7 +130,7 @@ h1 {
 
 #p1 {
     width: 215px;
-    height: 124px;
+    height: 78px;
 }
 
 #p2 {
@@ -155,6 +156,7 @@ h1 {
     width: 449px;
     height: 64px;
     border-radius: 12px;
+    font-size: 25px;
 }
 
 #bt1 {
@@ -163,7 +165,7 @@ h1 {
     top: 8px;
     width: 48px;
     height: 48px;
-    right: 31px;
+    right: 15px;
     border: none;
     cursor: pointer;
     border-radius: 1rem;
@@ -172,14 +174,14 @@ h1 {
 #img1 {
     width: 450px;
     height: 400px;
-    margin-top: 126px;
+    margin-top: -10px;
     margin-left: 723px;
 }
 
 #img2 {
     width: 411px;
     height: 513.98px;
-    margin-top: -487px;
+    margin-top: -473px;
     margin-left: 729px;
 }
 
@@ -187,14 +189,14 @@ h1 {
     width: 142px;
     height: 88.98px;
     margin-top: -717px;
-    margin-left: 547px;
+    margin-left: 494px;
 }
 
 #img4 {
-    width: 142px;
-    height: 88.98px;
-    margin-top: -717px;
-    margin-left: 547px;
+    margin-left: 1150px;
+    width: 53px;
+    height: 109px;
+    margin-top: 24px;
 }
 
 /* Section -3 */
@@ -445,7 +447,6 @@ h1 {
 
 .footparagph p {
     margin-top: 6px;
-
 }
 
 #footwords1 {
