@@ -375,11 +375,11 @@ h1 {
 .customerreviews {
     display: flex;
     justify-content: center;
-    width: 1013px;
+    width: 1300px;
     height: 330px;
     align-items: center;
-    margin-left: 234px;
-    margin-top: 101px;
+    margin-left: 73px;
+    margin-top: 78px;
     gap: 50px;
     /* padding: 2px; */
 
