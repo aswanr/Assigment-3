@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Quella.otf';
+    src: url('/Assignment3/font/Quella.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Allsection {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.Topsection {
+    width: 1440px;
+    height: 1280px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav1 h1 {
+    font-size: 24px;
+    font-family: 'Quella.otf';
+
+}
+
+nav {
+    width: 100%;
+    height: 58px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.nav1 {
+    width: 100%;
+    height: 190px;
+    gap: 50px;
+}
+
+.nav-links {
+    text-align: left;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 24px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: rgba(30, 30, 30, 0.5);
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+
+}
+
+.icons {
+    margin-left: 800px;
+}
+
+.icons img {
+    width: 15px;
+}
+
+#navimage1 {
+    margin-left: -218px;
+}
+
+#navimage2 {
+    margin-left: -72px;
+}
+
+#navimage3 {
+    margin-left: 103px;
+}
+
+#navimage4 {
+    margin-left: 27px;
+}
+
+/* Section 2 */
+.middle {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(193, 220, 220, 1);
+    width: 1248px;
+    height: 528px;
+    border-radius: 24px;
+    margin-top: -23px;
+    margin-left: 111px;
+
+}
+
+.leftnotes {
+    position: absolute;
+    width: 512px;
+    margin-top: 48px;
+    height: 339px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 48px;
+}
+
+h1 {
+    font-size: 66px;
+    font-family: "Poppins", sans-serif;
+}
+
+.box50 {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-left: -231px;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    margin-right: -142px;
+}
+
+#p1 {
+    width: 215px;
+    height: 124px;
+}
+
+#p2 {
+    border: 1px;
+    margin-top: 19px;
+    margin-left: 9px;
+    font-weight: 100;
+}
+
+#p3 {
+    margin-left: 31px;
+
+}
+
+.leftlower {
+    margin-top: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+.leftlower input {
+    padding-right: 40px;
+    width: 449px;
+    height: 64px;
+    border-radius: 12px;
+}
+
+#bt1 {
+    position: absolute;
+    background-color: rgba(193, 220, 220, 1);
+    top: 8px;
+    width: 48px;
+    height: 48px;
+    right: 31px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+#img1 {
+    width: 450px;
+    height: 400px;
+    margin-top: 126px;
+    margin-left: 723px;
+}
+
+#img2 {
+    width: 411px;
+    height: 513.98px;
+    margin-top: -487px;
+    margin-left: 729px;
+}
+
+#img3 {
+    width: 142px;
+    height: 88.98px;
+    margin-top: -717px;
+    margin-left: 547px;
+}
+
+#img4 {
+    width: 142px;
+    height: 88.98px;
+    margin-top: -717px;
+    margin-left: 547px;
+}
+
+/* Section -3 */
+
+.plantssection-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: -172px;
+    gap: 68px;
+    margin-left: 217px;
+}
+
+#plantside1 {
+    width: 149px;
+    margin-left: 116px;
+    margin-top: 85px;
+    font-family: "poppins";
+    font-size: 13px;
+}
+
+#bt2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(193, 220, 220, 1);
+    border-radius: 6px;
+    margin-top: 25px;
+    width: 132px;
+    height: 44px;
+    font-family: "poppins";
+    gap: 10px
+}
+
+#bt2 img {
+    line-height: 40px;
+}
+
+#plantside1 p {
+    width: 141px;
+}
+
+#plantside1 h2 {
+    width: 120px;
+}
+
+/* Section 4 */
+.second2 {
+    width: 1440px;
+    height: 512px;
+}
+
+.second2 {
+    text-align: center;
+}
+
+.second2 h2 {
+    margin-top: 17px;
+}
+
+.plantsection3 {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 88px;
+    width: 1006px;
+    margin-left: 217px;
+}
+
+.plantsection3 p {
+    color: rgba(30, 30, 30, 0.5);
+}
+
+.section-2 h2 {
+    color: rgba(30, 30, 30, 0.5);
+}
+
+#plhend1 {
+    margin-top: 39px;
+}
+
+#plhend2 {
+    margin-top: 39px;
+}
+
+#plhend3 {
+    margin-top: 39px;
+}
+
+#circle {
+    background-color: rgb(193, 215, 215);
+    width: 96px;
+    height: 96px;
+    margin-left: 51px;
+    border-radius: 100%;
+
+}
+
+#circle img {
+    margin-top: 27px;
+}
+
+/* section -5 */
+
+.category {
+    width: 1440px;
+    height: 512px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.category h2 {
+    color: rgba(30, 30, 30, 0.5);
+}
+
+.catplants {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: rgb(193, 215, 215);
+    gap: 80px;
+    padding: 58px;
+}
+
+.catplants p {
+    font-family: "Poppins", sans-serif;
+}
+
+.explorebtn {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+.second-last {
+    width: 1440px;
+    height: 800px;
+    margin-top: 560px;
+}
+
+.second-last h1 {
+    margin-left: 70px;
+    font-family: "Poppins", sans-serif;
+    font-size: xx-large;
+}
+
+.lefthead {
+    display: inline-block;
+}
+
+#reviewrigtimg {
+    margin-left: 261%;
+    margin-top: 18px;
+
+}
+
+.customerreviews {
+    display: flex;
+    justify-content: center;
+    width: 1013px;
+    height: 330px;
+    align-items: center;
+    margin-left: 234px;
+    margin-top: 101px;
+    gap: 50px;
+    /* padding: 2px; */
+
+}
+
+.customerreview1 {
+    background-color: rgb(193, 215, 215);
+    height: 405px;
+    border-radius: 12px;
+    
+}
+.customerreview1 img{
+    margin-left: 29px;
+    margin-top: 27px;
+}
+
+.customerreview2 {
+    background-color: rgb(193, 215, 215);
+    height: 330px;
+    width: 613px;
+    border-radius: 12px;
+}
+
+.customerreview1 p {
+    font-size: 18px;
+    margin-top: 76px;
+    margin-left: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.customerreview2 p {
+    font-size: 18px;
+    margin-top: 76px;
+    margin-left: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.reviewlower-1 {
+    font-family: "Poppins", sans-serif;
+    margin-top: -63px;
+}
+/* Section-6 footer */
+.footer {
+    width: 1440px;
+    height: 400px;
+    background-color: rgb(193, 215, 215);
+}
+
+.footerhead {
+    margin-left: 190px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footparagph {
+    font-size: 18px;
+    font-family: 'Quella.otf';
+    margin-top: 52px;
+    margin-left: -70px;
+}
+
+.footparagph p {
+    margin-top: 6px;
+
+}
+
+#footwords1 {
+    font-family: "poppins";
+    margin-top: 51px;
+}
+
+.footerimages {
+    display: flex;
+    gap: 25px;
+    margin-top: 219px;
+    margin-left: -153px;
+
+}
+
+.footimg1 {
+    border: 1px solid rgba(30, 30, 30, 0.5);
+    border-radius: 25px;
+    width: 27px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footimg2 {
+    border: 1px solid rgba(30, 30, 30, 0.5);
+    border-radius: 25px;
+    width: 27px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footimg3 {
+    border: 1px solid rgba(30, 30, 30, 0.5);
+    border-radius: 25px;
+    width: 27px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerlastword {
+    font-size: 18px;
+    font-family: "poppins";
+    margin-top: 322px;
+    margin-left: -134px;
+}
+
+.footerright {
+    font-family: "poppins";
+    margin-left: -55px;
+}
+
+.footrow1 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 462px;
+    margin-top: 118px
+}
+
+.footrow2 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 602px;
+    margin-top: -169px;
+}
+
+.footrow3 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 745px;
+    margin-top: -170px;
+}
