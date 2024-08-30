@@ -65,7 +65,7 @@ nav {
 }
 
 .icons {
-    margin-left: 699px;
+    margin-left: 731px;
     position: relative;
     left: 93px;
 }
@@ -198,11 +198,17 @@ h1 {
     margin-left: 494px;
 }
 
+.one {
+    margin-left: 994px;
+}
+
 #img4 {
-    margin-left: 1150px;
-    width: 53px;
-    height: 109px;
+    margin-left: 163px;
+    width: 71px;
+    height: 110px;
     margin-top: 24px;
+    position: relative;
+    left: -65px;
 }
 
 /* Section -3 */
@@ -212,7 +218,7 @@ h1 {
     justify-content: center;
     margin-top: -172px;
     gap: 68px;
-    margin-left: 163px;
+    margin-left: 196px;
     font-family: "poppins";
 }
 
@@ -355,8 +361,8 @@ h1 {
 }
 
 .explorebtn {
-    background-color: white;
-    border-radius: 5px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px;
     color: black;
     font-size: 16px;
     padding: 10px 20px;
