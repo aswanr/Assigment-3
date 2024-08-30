@@ -13,6 +13,7 @@
 }
 
 .Allsection {
+
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -20,7 +21,7 @@
 }
 
 .Topsection {
-    width: 1440px;
+    width: 100%;
     height: 1280px;
     justify-content: center;
     align-items: center;
@@ -33,12 +34,9 @@
 }
 
 nav {
-    width: 100%;
-    height: 58px;
     justify-content: center;
     display: flex;
     align-items: center;
-    margin-left: 35px;
 }
 
 .nav1 {
@@ -67,7 +65,9 @@ nav {
 }
 
 .icons {
-    margin-left: 800px;
+    margin-left: 699px;
+    position: relative;
+    left: 93px;
 }
 
 .icons img {
@@ -92,14 +92,20 @@ nav {
 
 /* Section 2 */
 .middle {
+    display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
-    background-color: rgba(193, 220, 220, 1);
-    width: 1248px;
+    width: 100%;
     height: 528px;
-    border-radius: 24px;
     margin-top: -23px;
-    margin-left: 111px;
+
+
+}
+
+.middlesection {
+    background-color: rgba(193, 220, 220, 1);
+    border-radius: 24px;
 
 }
 
@@ -181,7 +187,7 @@ h1 {
 #img2 {
     width: 411px;
     height: 513.98px;
-    margin-top: -473px;
+    margin-top: -443px;
     margin-left: 729px;
 }
 
@@ -206,7 +212,7 @@ h1 {
     justify-content: center;
     margin-top: -172px;
     gap: 68px;
-    margin-left: 217px;
+    margin-left: 163px;
     font-family: "poppins";
 }
 
@@ -219,11 +225,18 @@ h1 {
 }
 
 #plantside1 {
-    width: 149px;
-    margin-left: 116px;
+
+    display: grid;
+    justify-content: center;
+    margin-left: -1059px;
     margin-top: 85px;
     font-family: "poppins";
     font-size: 13px;
+}
+
+.plantiteam {
+    position: static;
+    left: 25px;
 }
 
 #bt2 {
@@ -254,25 +267,29 @@ h1 {
 /* Section 4 */
 
 .second2 {
-    width: 1440px;
-    height: 512px;
+    width: 100%;
+
 }
 
 .second2 {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .second2 h2 {
     margin-top: 17px;
+
 }
 
 .plantsection3 {
     display: flex;
     justify-content: center;
     gap: 200px;
-    margin-top: 88px;
-    width: 1006px;
-    margin-left: 217px;
+    margin-top: 110px;
+    width: 1015px;
+    margin-left: 34px;
     font-family: "poppins";
 }
 
@@ -312,7 +329,7 @@ h1 {
 /* section -5 */
 
 .category {
-    width: 1440px;
+
     height: 512px;
     margin-top: 100px;
     text-align: center;
@@ -354,9 +371,10 @@ h1 {
 }
 
 .second-last {
-    width: 1440px;
-    height: 800px;
-    margin-top: 560px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 568px;
 }
 
 .second-last h1 {
@@ -370,7 +388,7 @@ h1 {
 }
 
 #reviewrigtimg {
-    margin-left: 261%;
+    margin-left: 1267px;
     margin-top: 18px;
 
 }
@@ -428,13 +446,15 @@ h1 {
 
 /* Section-6 footer */
 .footer {
-    width: 1440px;
     height: 400px;
+    margin-top: 135px;
     background-color: rgb(193, 215, 215);
 }
 
 .footerhead {
-    margin-left: 190px;
+    display: grid;
+    justify-content: center;
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
