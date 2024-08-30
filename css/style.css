@@ -452,7 +452,6 @@ h1 {
 }
 
 .footerhead {
-    display: grid;
     justify-content: center;
     width: 100%;
     display: flex;
@@ -462,8 +461,8 @@ h1 {
 .footparagph {
     font-size: 18px;
     font-family: 'Quella.otf';
-    margin-top: 52px;
-    margin-left: -70px;
+    margin-top: -48px;
+    margin-left: 26px;
 }
 
 .footparagph p {
@@ -478,7 +477,7 @@ h1 {
 .footerimages {
     display: flex;
     gap: 25px;
-    margin-top: 219px;
+    margin-top: 155px;
     margin-left: -153px;
 
 }
@@ -518,34 +517,43 @@ h1 {
     font-family: "poppins";
     margin-top: 322px;
     margin-left: -134px;
+    color: rgba(30, 30, 30, 0.5);
 }
 
 .footerright {
     font-family: "poppins";
-    margin-left: -55px;
+    margin-top: -100px;
+    margin-left: -38px;
+}
+
+.footerright p {
+    color: rgba(30, 30, 30, 0.5);
+
 }
 
 .footrow1 {
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    margin-left: 218px;
-    margin-top: 118px
+    align-items: flex-start;
+    gap: 26px;
+    margin-left: 610px;
+    margin-top: 127px;
 }
 
 .footrow2 {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 25px;
-    margin-left: 508px;
-    ;
-    margin-top: -169px;
+    margin-left: 743px;
+    margin-top: -174px;
 }
 
 .footrow3 {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 25px;
-    margin-left: 796px;
-    margin-top: -170px;
+    margin-left: 868px;
+    margin-top: -171px;
 }
