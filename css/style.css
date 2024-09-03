@@ -12,8 +12,12 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .Allsection {
-    display: flex;
+
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -61,7 +65,7 @@ nav {
 .nav-links ul li {
     list-style: none;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 10px;
     position: relative;
 }
 
@@ -108,7 +112,6 @@ nav {
     align-items: center;
     width: 100%;
     height: 528px;
-    padding: 20px;
 }
 
 .middlesection {
@@ -123,7 +126,6 @@ nav {
     margin-top: -103px;
     height: 339px;
     margin-left: 48px;
-    padding: 20px;
 }
 
 .leftnotes h1 {
@@ -195,8 +197,7 @@ nav {
 #img2 {
     width: 411px;
     height: 513.98px;
-    margin-top: -457px;
-    ;
+    margin-top: -438px;
     margin-left: 729px;
 }
 
@@ -260,7 +261,6 @@ nav {
     align-items: flex-start;
     gap: 45px;
     margin-top: 65px;
-    padding: 20px;
 }
 
 .plant-item {
