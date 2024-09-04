@@ -167,6 +167,11 @@ nav {
     display: inline-block;
 }
 
+.rightsideimages{
+    display: grid;
+    place-items: center; 
+}
+
 .leftlower input {
     padding-right: 40px;
     width: 449px;
@@ -191,14 +196,14 @@ nav {
     width: 450px;
     height: 400px;
     margin-top: -10px;
-    margin-left: 723px;
+    margin-left: 632px;
 }
 
 #img2 {
     width: 411px;
     height: 513.98px;
     margin-top: -438px;
-    margin-left: 729px;
+    margin-left: 700px;
 }
 
 #img3 {
