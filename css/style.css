@@ -5,7 +5,6 @@
     src: url('/font/Quella.otf');
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -36,7 +35,6 @@ body {
 .nav1 h1 {
     font-size: 24px;
     font-family: 'Quella';
-
 }
 
 nav {
@@ -47,7 +45,10 @@ nav {
 
 .nav1 {
     height: 100px;
-    gap: 50px;
+    gap: 80px;
+    position: relative;
+    margin-right: 635px;
+    top: 15px;
 }
 
 .nav-links {
@@ -77,30 +78,36 @@ nav {
 }
 
 .icons {
-    margin-left: 724px;
     position: relative;
-    left: 100px;
+    left: 243px;
 }
 
 .icons img {
-    width: 15px;
+    width: 24px;
+}
+
+#navimage3 img{
+    width: 0.06em
 }
 
 #navimage1 {
-    margin-left: -218px;
+    position: relative;
+    left: 220px;
 }
 
 #navimage2 {
-    margin-left: -72px;
+    position: relative;
+    left: 272px;
 }
 
 #navimage3 {
-    margin-left: 103px;
-    color: black;
+    position: relative;
+    left: 320px;
 }
 
 #navimage4 {
-    margin-left: 27px;
+    position: relative;
+    left: 374px;
 }
 
 /* Middle Section */
@@ -117,13 +124,13 @@ nav {
 .middlesection {
     background-color: rgba(193, 220, 220, 1);
     border-radius: 24px;
-
+    margin-top: 31px;
 }
 
 .leftnotes {
     position: absolute;
     width: 512px;
-    margin-top: -103px;
+    margin-top: -140px;
     height: 339px;
     margin-left: 48px;
 }
@@ -131,17 +138,28 @@ nav {
 .leftnotes h1 {
     font-size: 66px;
     font-family: "Poppins", sans-serif;
+    line-height: 66px;
 }
 
 .box50 {
     font-size: 18px;
     display: flex;
     justify-content: center;
-    margin-top: 16px;
-    margin-left: -231px;
+    margin-top: 30px;
+    margin-right: 222px;
     font-family: "Poppins", sans-serif;
-    font-size: 28px;
-    margin-right: -142px;
+}
+
+#pp1{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+#pp2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
 }
 
 #p1 {
@@ -151,7 +169,7 @@ nav {
 
 #p2 {
     border: 1px;
-    margin-top: 19px;
+    margin-top: 10px;
     margin-left: 9px;
     font-weight: 100;
 }
@@ -162,7 +180,7 @@ nav {
 }
 
 .leftlower {
-    margin-top: 25px;
+    margin-top: 35px;
     position: relative;
     display: inline-block;
 }
@@ -178,6 +196,8 @@ nav {
     height: 64px;
     border-radius: 12px;
     font-size: 18px;
+    border: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 #bt1 {
@@ -195,22 +215,24 @@ nav {
 #img1 {
     width: 450px;
     height: 400px;
-    margin-top: -10px;
+    margin-top: -68px;
     margin-left: 632px;
 }
 
 #img2 {
     width: 411px;
     height: 513.98px;
-    margin-top: -438px;
-    margin-left: 700px;
+    position: relative;
+    left: 718px;
+    top: -502px
 }
 
 #img3 {
-    width: 142px;
-    height: 88.98px;
-    margin-top: -717px;
-    margin-left: 494px;
+    width: 169.89px;
+    height: 112.72px;
+    top: -52px;
+    margin-left: 481px;
+    position: relative;
 }
 
 .rightarrow {
@@ -219,11 +241,11 @@ nav {
 
 #img4 {
     margin-left: 163px;
-    width: 71px;
-    height: 110px;
+    width: 112.54px;
+    height: 154.41px;
     margin-top: 24px;
     position: relative;
-    left: -65px;
+    left: -31px;
 }
 
 /* Plant section */
@@ -247,12 +269,16 @@ nav {
 .plantheader h2 {
     font-size: 32px;
     font-family: "Poppins", sans-serif;
+    line-height: 48px;
+    font-weight: 700;
 }
 
 .plantheader p {
     font-size: 18px;
     font-family: "poppins";
     color: rgba(30, 30, 30, 0.5);
+    font-weight: 500;
+    line-height: 27px;
 }
 
 .plantss {
@@ -272,6 +298,8 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 299px;
+    height: 436px;
 }
 
 .plant-item p {
@@ -288,6 +316,7 @@ nav {
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
+    margin-top: 8px
 }
 
 #bt2 {
@@ -306,6 +335,11 @@ nav {
     border: 1px;
 }
 
+.plantdeatils{
+    text-align: left;
+    align-self: flex-start;
+}
+
 #bt2 img {
     line-height: 40px;
 }
@@ -322,35 +356,35 @@ nav {
 
 .second2 {
     width: 100%;
-
 }
 
 .second2 {
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 171px;
+    margin-top: 100px;
 }
 
 .second2 h2 {
     margin-top: 17px;
-
 }
 
 .plantsection3 {
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 24px;
     margin-top: 110px;
     width: 1015px;
     font-family: "Poppins", sans-serif;
     align-items: center;
+    margin-right: 65px;
 }
 
 .second2 h1 {
     font-size: 32px;
     font-family: "Poppins", sans-serif;
+    line-height: 48px;
+    font-weight: 700;
 }
 
 .second2 h2 {
@@ -364,26 +398,20 @@ nav {
 
 .section-2 h2 {
     color: rgba(30, 30, 30, 0.5);
+    font-weight: 500;
+    line-height: 27px;
 }
 
 #plhend1 {
-    margin-top: 39px;
-}
-
-#plhend2 {
-    margin-top: 39px;
-}
-
-#plhend3 {
-    margin-top: 39px;
+    margin-top: 17px;
 }
 
 #circle {
     background-color: rgb(193, 215, 215);
     width: 96px;
     height: 96px;
-    margin-left: 51px;
     border-radius: 100%;
+    display: inline-block;
 }
 
 #circle img {
@@ -402,14 +430,22 @@ nav {
 
 .categoryhead h1 {
     font-size: 32px;
+    width: 182px;
+    height: 48px;
+    text-align: center;
+    justify-content: center;
+    display: contents;
+    line-height: 48px;
+    font-weight: 700;
 }
 
 .categoryhead h2 {
     font-size: 18px;
-}
-
-.category h2 {
     color: rgba(30, 30, 30, 0.5);
+    font-weight: 500;
+    line-height: 27px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 12px;
 }
 
 .catplants {
@@ -440,18 +476,23 @@ nav {
     background: rgba(255, 255, 255, 1);
     border-radius: 8px;
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     padding: 10px 20px;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
     border: 1px;
+    font-weight: 500;
+    line-height: 27px;
 }
 
 .arrow {
-    margin-left: 10px;
-    margin-top: 2px;
+    width: 21px;
+    height: 11.25px;
+    align-items: center;
+    margin-left: 5.5px;
+    display: flex;
 }
 
 /* Coustomer Review second last */
@@ -467,6 +508,10 @@ nav {
     font-family: "Poppins", sans-serif;
     font-size: 32px;
     margin-left: 50px;
+    width: 457px;
+    height: 96px;
+    font-weight: 700;
+    line-height: 48px;
 }
 
 .lefthead {
@@ -513,8 +558,8 @@ nav {
     padding: 22px;
     margin: 20px;
     font-size: 16px;
-    margin-top: -10px;
-    margin-left: 54px;
+    margin-top: -26px;
+    margin-left: 64px;
     font-family: "Poppins", sans-serif;
     width: 521px;
 }
@@ -531,18 +576,19 @@ nav {
     font-size: 12px;
     line-height: 18px;
     font-weight: 500;
-
+    position: relative;
+    top: -69px;
 }
 
 .reviewlower-1 {
     font-family: "Poppins", sans-serif;
-    margin-top: -40px;
 }
 
 .reviewlower-1 p {
     font-size: 18px;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
+    line-height: 27px;
 }
 
 /* Last The Footer Area  */
@@ -558,6 +604,7 @@ nav {
     width: 100%;
     display: flex;
     flex-direction: row;
+    padding: 24px 24px;
 }
 
 .footparagph {
@@ -664,7 +711,6 @@ nav {
     font-size: 18px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
-
 }
 
 .footer-lowerhead a {
