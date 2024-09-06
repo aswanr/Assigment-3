@@ -45,9 +45,9 @@ nav {
 
 .nav1 {
     height: 100px;
-    gap: 80px;
+    gap: 73px;
     position: relative;
-    margin-right: 635px;
+    margin-right: 616px;
     top: 15px;
 }
 
@@ -621,7 +621,7 @@ nav {
 
 #footwords1 {
     font-family: "Poppins", sans-serif;
-    margin-top: 51px;
+    margin-top: 30px;
     font-size: 18px;
     color: rgba(30, 30, 30, 0.5);
     font-weight: 500;
@@ -630,7 +630,7 @@ nav {
 .footerimages {
     display: flex;
     gap: 24px;
-    margin-top: 230px;
+    margin-top: 180px;
     margin-left: -164px;
 }
 
@@ -670,6 +670,8 @@ nav {
     margin-top: 322px;
     margin-left: -190px;
     color: rgba(30, 30, 30, 0.5);
+    line-height: 27px;
+    font-weight: 500;
 }
 
 .footerright {
@@ -693,7 +695,7 @@ nav {
     align-items: flex-start;
     gap: 25px;
     margin-left: 610px;
-    margin-top: -189px;
+    margin-top: -186px;
 }
 
 .footrow3 {
@@ -702,7 +704,7 @@ nav {
     align-items: flex-start;
     gap: 25px;
     margin-left: 745px;
-    margin-top: -186px;
+    margin-top: -184px;
 }
 
 .footer-lowerbelow a {
@@ -711,6 +713,7 @@ nav {
     font-size: 18px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
+    line-height: 27px;
 }
 
 .footer-lowerhead a {
