@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Quella';
-    src: url('/font/Quella.otf');
+    src: url('font/Quella.otf');
 }
 
 * {
@@ -377,7 +377,6 @@ nav {
     width: 1015px;
     font-family: "Poppins", sans-serif;
     align-items: center;
-    margin-right: 65px;
 }
 
 .second2 h1 {
@@ -394,6 +393,8 @@ nav {
 
 .plantsection3 p {
     color: rgba(30, 30, 30, 0.5);
+    width: 400px;
+    height: 54px;
 }
 
 .section-2 h2 {
@@ -611,7 +612,6 @@ nav {
     font-size: 18px;
     font-family: 'Quella';
     margin-top: 48px;
-    margin-left: 26px;
     font-weight: 400;
 }
 
@@ -683,7 +683,7 @@ nav {
     flex-direction: column;
     align-items: flex-start;
     gap: 26px;
-    margin-left: 610px;
+    margin-left: 463px;
     margin-top: 48px;
 }
 
@@ -692,8 +692,8 @@ nav {
     flex-direction: column;
     align-items: flex-start;
     gap: 25px;
-    margin-left: 743px;
-    margin-top: -187px;
+    margin-left: 610px;
+    margin-top: -189px;
 }
 
 .footrow3 {
@@ -701,8 +701,8 @@ nav {
     flex-direction: column;
     align-items: flex-start;
     gap: 25px;
-    margin-left: 868px;
-    margin-top: -184px;
+    margin-left: 745px;
+    margin-top: -186px;
 }
 
 .footer-lowerbelow a {
