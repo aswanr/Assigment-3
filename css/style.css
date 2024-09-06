@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Quella';
-    src: url('font/Quella.otf');
+    src: url('/font/Quella.otf');
 }
 
 * {
@@ -338,6 +338,10 @@ nav {
 .plantdeatils{
     text-align: left;
     align-self: flex-start;
+}
+
+.plantdeatils p{
+    margin-top: 10px;
 }
 
 #bt2 img {
