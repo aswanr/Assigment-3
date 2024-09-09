@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Quella';
-    src: url('font/Quella.otf');
+    src: url('/font/Quella.otf');
 }
 * {
     margin: 0;
