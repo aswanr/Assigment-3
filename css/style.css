@@ -496,14 +496,17 @@ nav {
 }
 @media (min-width: 628px) and (max-width: 1024px){
     .middle{
-        display: block;
-        position: relative;
-        left: 128px;
-        overflow: hidden;
+        width: 1024px;
+        align-items: center;
+    }
+    .midlle-1{
+        width: 900px;
     }
     .middlesection{
-        width: 70%;
-        margin-right: 204px;
+        width: 744px;
+        position: relative;
+        left: 49px;
+        top: -129px;
     }
     .leftnotes h1{
         width: 460px;
@@ -554,7 +557,7 @@ nav {
     }
     #img2{
         position: relative;
-        left: 391px;
+        left: 405px;
         width: 217px;
         height: 263px;
         top: -274px;
@@ -566,7 +569,7 @@ nav {
        width: 51px;
         height: 77px;
         position: relative;
-        margin-left: 652px;
+        margin-left: 690px;
         margin-top: 83px;
         top: -57px;
     }
@@ -825,15 +828,23 @@ nav {
 }
 @media (min-width: 627px) and (max-width: 1024px){
     .section-2{
-        
+        width: 886px;
     }
     .second2{
+        width: 1024px;
         margin-top: 0px;
-        width: 100%;
-        margin-left: 26px;
+        margin-left: 6px;
     }
     .plantsection3{
-        width: 400px;
+        position: relative;
+        right: 74px;
+        gap: 68px;
+    }
+    .smallplant{
+        width: 200px;
+    }
+    .plantsection3 p{
+        width: 196px;
     }
 }
 /* Category */
@@ -948,8 +959,14 @@ nav {
         position: relative;
         width: 100%;
     }
-
-
+}
+@media (min-width: 627px) and (max-width: 1024px){
+    .category{
+        width: 1024px;
+    }
+    .catplants img{
+        width: 235px;
+    }
 }
 /* Coustomer Review second last */
 
@@ -1128,6 +1145,33 @@ nav {
     #rev-paraname{
         font-size: 9px;
     }
+}
+@media (min-width: 627px) and (max-width: 1024px){
+    .second-last{
+        width: 1024px;
+        position: relative;
+        top: -238px;
+    }
+    .lefthead{
+        width: 800px;
+    }
+    .lefthead img{
+        display: none;
+        width: 0;
+    }
+    .customerreviews{
+        margin-left: 93px;
+    }
+    .customerreview1{
+        width: 800px;
+    }
+    .customerreview1 p{
+        width: 384px;
+    }
+    .second-last h1{
+        margin-left: -89px;
+    }
+
 }
 /* Last The Footer Area  */
 
