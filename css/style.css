@@ -739,13 +739,13 @@ nav {
 .second2 {
     width: 100%;
 }
-.second2 {
+.second-sec{
     text-align: center;
     display: flex;
     justify-content: center;
     margin-top: 100px;
 }
-.second2 h2 {
+.second-sec {
     margin-top: 17px;
 }
 .plantsection3 {
@@ -757,13 +757,13 @@ nav {
     font-family: "Poppins", sans-serif;
     align-items: center;
 }
-.second2 h1 {
+.second-sec h1 {
     font-size: 32px;
     font-family: "Poppins", sans-serif;
     line-height: 48px;
     font-weight: 700;
 }
-.second2 h2 {
+.second-sec h2 {
     font-size: 18px;
     font-family: "Poppins", sans-serif;
 }
@@ -792,33 +792,26 @@ nav {
 }
 
 @media (max-width: 436px){
-    .second2{
+    .second-sec{
         width: 416px;
-        position: relative;
-        left: -22px;
-        overflow-x: hidden;
+        display: block;
     }
     .section-2 {
-        right: 480px;
-        width: 50%;
+        right: 898px;
+        width: 346px;
         position: relative;
-    }
-    .second2 h1{
-        position: relative;
-        left: 55px;
-    }
-    .second2 h2{
-        position: relative;
-        left: 55px;
     }
     .plantsection3{
         flex-direction: column;
         width: 320px;
     }
+    .plantsection3 p{
+        width: 238px;
+    }
 
 }
 @media (min-width: 436px) and (max-width: 627px){
-    .second2{
+    .second-sec{
         width: 416px;
     }
     .section-2 {
@@ -835,7 +828,7 @@ nav {
     .section-2{
         width: 886px;
     }
-    .second2{
+    .second-sec{
         width: 1024px;
         margin-top: 0px;
         margin-left: 6px;
@@ -934,7 +927,6 @@ nav {
         flex-direction: column;
         padding: 25px;
         position: relative;
-        left: 12px; 
         width: 100%;
     }
     .catplant1 img{
@@ -1058,11 +1050,13 @@ nav {
 }
 @media (max-width: 436px){
     .second-last{
-        margin-left: 455px;
-        margin-top: 365px;
+        display: block;
+        width: 100%;
+        margin-top: 381px;
     }
     #reviewrigtimg{
         display: none;
+        width: 0px;
     }
     .second-last h1{
         font-size: 16px;
@@ -1072,7 +1066,7 @@ nav {
         right: 156px;
     }
     .lefthead{
-        width: 300px;
+       width: 0px;
     }
     .customerreviews{
         flex-direction: column;
@@ -1458,6 +1452,15 @@ nav {
         top: 9px;
     }
 }
-@media (max-width: 321px){
-
+@media (min-width: 627px) and (max-width: 1024px){
+    .footer{
+        width: 1024px;
+    }
+    #footwords1{
+        width: 160px;
+    }
+    .footerlastword p{
+        top:;
+        width: 150px;
+    }
 }
