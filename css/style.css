@@ -159,12 +159,13 @@ nav {
 
 @media (min-width: 628px) and (max-width: 1024px){
     .nav1{
-        height: 100px;
         gap: 0;
-        width: 100%;
+        width: 767px;
         position: relative;
         top: 15px;
-        right: 136px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     .nav-links{
         position: relative;
@@ -500,7 +501,7 @@ nav {
         align-items: center;
     }
     .midlle-1{
-        width: 900px;
+        width: 860px;
     }
     .middlesection{
         width: 744px;
@@ -711,6 +712,10 @@ nav {
 }
 
 @media (min-width: 628px) and (max-width: 1024px){
+    .plantss{
+        align-items: center;
+        width: 1024px;
+    }
     .plant-container {
         gap: 10px;
         margin-top: -206px;
