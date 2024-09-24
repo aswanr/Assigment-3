@@ -4,6 +4,7 @@
     font-family: 'Quella';
     src: url('../font/Quella.otf');
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -286,6 +287,15 @@ nav {
     position: relative;
     left: -31px;
 }
+#img12{
+    display: none;
+}
+#img21{
+    display: none;
+}
+#img44{
+    display: none;
+}
 /* Media Middle Section */
 @media (max-width:767px){
     .midlle-1{
@@ -297,9 +307,10 @@ nav {
     }
     .middle{
         width: 95%;
+        margin: 8px;
     }
     .rightarrow{
-        margin-left: 0;
+        display: none;
     }
     .leftnotes{
         width: 100%;
@@ -354,62 +365,58 @@ nav {
    }
    .serachingarea input{
         padding-right: 0px;
-        width: 83%;
+        width: 300px;
         height: 45px;
         border-radius: 12px;
         font-size: 12px;
    }
    #bt1{
-        left: 235px;
+        position: relative;
+        right: 41px;
         width: 33px;
         height: 25px;
-        right: 0;
-        top:10px;
+        top: 0px;
    }
    #bt1 img{
         width: 15px;
    }
-   #img3{
-        width: 66px;
-        height: 41.72px;
-        top: 0px;
-        left: 9px;
+   #img1{
+        width: 198px;
+        height: 172px;
         position: relative;
+        top: 313px;
+        margin-top: 0;
         margin-left: 0;
+    }
+   #img3{
+       display: none;
    }
    #img2{
-        width: 156px;
-        height: 199.98px;
-        position: relative;
-        left: 41px;
-        top: 23px;
+       display: none;
+   }
+   #img12{
+        display: block;
         z-index: 1;
-   }
-   .rightsideimages{
-        width: 100%;
         position: relative;
-        top: 242px;
+        top: 139px;
+        right: 116px;
+        width: 65px;
    }
-   #img1{
-        width: 150px;
-        height: 168px;
-        margin-top: 0; 
-        margin-left: 0px;
-   }
-   .rightarrow{
-        width: 37px;
+   #img21{
+        display: block;
+        z-index: 1;
         position: relative;
-        top: 305px;
-        left: 264px;
+        top: 79px;
+        width: 171px;
+        left: 19px;
    }
-   #img4{
-        margin-left: 0;
-        width: 36px;
-        height: 73px;
-        margin-top: 0; 
+   #img44{
+        display: block;
         position: relative;
-        left: 0;
-   }
+        top: -108px;
+        width: 35px;
+        left: 124px;
+   } 
 }
 @media (min-width: 768px) and (max-width:1248px){
     .midlle-1{
@@ -425,8 +432,7 @@ nav {
         left: 23px;
     }
     .rightarrow{
-        margin-left: 0;
-
+        display: none;
     }
     .leftnotes{
         width: 100%;
@@ -436,8 +442,7 @@ nav {
         margin-left:0;
     }
     .upperleft{
-        width: 100%;
-        
+        width: 100%;   
     }
     .leftnotes h1{
         width: 80%;
@@ -499,20 +504,33 @@ nav {
         width: 18px;
    }
    #img3{
-        width: 76px;
-        height: 41.72px;
-        top: -266px;
-        left: 298px;
-        position: relative;
-        margin-left: 0;
+        display: none;
    }
    #img2{
-        width: 257px;
-        height: 350.98px;
-        position: relative;
-        left: 350px;
-        top: -145px;
+        display: none;
+   }
+   #img12{
+        display: block;
         z-index: 1;
+        position: relative;
+        top: -73px;
+        left: 2px;
+        width: 163px;
+   }
+   #img21{
+        display: block;
+        z-index: 1;
+        position: relative;
+        top: -359px;
+        width: 300px;
+        left: 297px;
+   }
+   #img44{
+        display: block;
+        position: relative;
+        top: -790px;
+        width: 66px;
+        left: 407px;
    }
    .rightsideimages{
         width: 100%;
@@ -525,21 +543,8 @@ nav {
         height: 285px;
         position: relative;
         right: 50px;
-   }
-   .rightarrow{
-        width: 37px;
-        position: relative;
-        top: 162px;
-        left: 600px;
-   }
-   #img4{
-        margin-left: 0;
-        width: 36px;
-        height: 73px;
-        margin-top: 0; 
-        position: relative;
-        left: 0;
-   }
+        top: 80px;
+   } 
 }
 
 /* Plant section */
@@ -886,7 +891,6 @@ nav {
 #reviewrigtimg {
     margin-left: 1267px;
     margin-top: 18px;
-
 }
 .customerreviews {
     display: flex;
@@ -1217,7 +1221,7 @@ nav {
     }
 }
 @media (min-width: 768px) and (max-width:1248px){
-        .footer{
+    .footer{
         width: 100%;
     }
     .footerleft{
