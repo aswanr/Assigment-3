@@ -4,7 +4,6 @@
     font-family: 'Quella';
     src: url('../font/Quella.otf');
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +13,6 @@ body {
     overflow-x: hidden;
 }
 .allsection {
-    justify-content: center;
-    align-items: center;
     width: 100%;
     margin-left: 5px;
 }
@@ -24,11 +21,8 @@ body {
 
 .topsection {
     width: 100%;
-    height: 1280px;
-    justify-content: center;
-    align-items: center;
 }
-.nav1 h1 {
+.nav1 h2 {
     font-size: 24px;
     font-family: 'Quella';
 }
@@ -106,7 +100,7 @@ nav {
     .nav-links{
         display: none;
     }
-    .nav1 h1{
+    .nav1 h2{
         font-size: 16px;
     }
     .icons{
@@ -189,7 +183,7 @@ nav {
     height: 339px;
     margin-left: 48px;
 }
-.leftnotes h1 {
+.leftnotes h2 {
     font-size: 66px;
     font-family: "Poppins", sans-serif;
     line-height: 66px;
@@ -323,7 +317,7 @@ nav {
         width: 100%;
         text-align: center;
     }
-    .leftnotes h1{
+    .leftnotes h2{
         font-size: 36px;
         line-height: 36px;
         margin-left: 19px;
@@ -444,7 +438,7 @@ nav {
     .upperleft{
         width: 100%;   
     }
-    .leftnotes h1{
+    .leftnotes h2{
         width: 80%;
         font-size: 34px;
         line-height: 44px;
@@ -693,7 +687,7 @@ nav {
     width: 400px;
     height: 54px;
 }
-.section-2 h2 {
+.section-2 h3 {
     color: rgba(30, 30, 30, 0.5);
     font-weight: 500;
     line-height: 27px;
@@ -759,7 +753,7 @@ nav {
     text-align: center;
     font-family: "Poppins", sans-serif;
 }
-.categoryhead h1 {
+.categoryhead h2 {
     font-size: 32px;
     width: 182px;
     height: 48px;
@@ -769,7 +763,7 @@ nav {
     line-height: 48px;
     font-weight: 700;
 }
-.categoryhead h2 {
+.categoryhead h3 {
     font-size: 18px;
     color: rgba(30, 30, 30, 0.5);
     font-weight: 500;
@@ -876,7 +870,7 @@ nav {
     align-items: center;
     margin-top: 568px;
 }
-.second-last h1 {
+.second-last h2 {
     font-family: "Poppins", sans-serif;
     font-size: 32px;
     margin-left: 50px;
@@ -961,7 +955,7 @@ nav {
         margin-left: 222px;
         margin-top: 17px;    
     }
-    .second-last h1{
+    .second-last h2{
         font-size: 22px;
         margin-left: 0; 
         width: 100%;
@@ -1002,7 +996,7 @@ nav {
     #reviewrigtimg{
         display: none;
     }
-    .second-last h1{
+    .second-last h2{
         font-size: 22px;
         margin-left: 0; 
         width: 100%;
